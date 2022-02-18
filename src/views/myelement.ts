@@ -13,6 +13,7 @@ class MyElement extends LitElement {
   render() {
     return html`
       <div>Hello! ${this.description}</div>
+      <div>My Test</div>
     `;
   }
 }

@@ -65,7 +65,7 @@ const VisibilityFilters = {
             @change="${this.updateTask}"
           ></vaadin-text-field>
           <vaadin-button theme="primary" @click="${this.addTodo}">
-            Add Todo
+            Add New Todo Task
           </vaadin-button>
         </div>
         <div class="todos-list">
